@@ -1,13 +1,13 @@
 /* button */
 .btn {
-  padding: 0.7rem 1.3rem;
+  padding: .9rem 1.7rem;
   cursor: pointer;
   font-weight: 500;
-  border-radius: 0.3rem;
-  -webkit-border-radius: 0.3rem;
-  -moz-border-radius: 0.3rem;
-  -ms-border-radius: 0.3rem;
-  -o-border-radius: 0.3rem;
+  border-radius: .7rem;
+  -webkit-border-radius: .7rem;
+  -moz-border-radius: .7rem;
+  -ms-border-radius: .7rem;
+  -o-border-radius: .7rem;
 }
 .btn--outline {
   background: var(--color-primary-light);
