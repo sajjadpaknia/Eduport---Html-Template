@@ -1,0 +1,26 @@
+@media (max-width: 1280px) {
+  .dropdown-fullwidth {
+    left: -570px;
+    width: 1000px;
+  }
+  .dropdown-fullwidth__mega-menu {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5rem;
+  }
+  .download-apps {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .download-apps .google-play-logo,
+  .download-apps .app-store-logo {
+    width: 150px;
+  }
+}
+@media (max-width: 1200px) {
+  .global-header__nav-box {
+    display: none !important;
+  }
+  .hidden-menu {
+    display: block !important;
+  }
+}

@@ -1,6 +1,7 @@
 /* button */
 .btn {
-  padding: .9rem 1.7rem;
+  padding: 0 1.7rem;
+  height: 100%;
   cursor: pointer;
   font-weight: 500;
   border-radius: .7rem;
