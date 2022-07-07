@@ -21,7 +21,7 @@
   -moz-transition: 0.3s ease-in-out;
   -ms-transition: 0.3s ease-in-out;
   -o-transition: 0.3s ease-in-out;
-  z-index: 100;
+  z-index: 1000;
 }
 .dropdown-item.sub-menu:hover > .dropdown-sub-menu {
   left: 100%;

@@ -1,0 +1,210 @@
+.global-main {
+  position: relative;
+  width: 100%;
+  padding: 2rem;
+  background-color: #ffffff;
+  display: block;
+}
+.global-main__container {
+  position: relative;
+  display: grid;
+  grid-template-columns: minmax(500px, 1fr) minmax(550px, 1fr);
+  max-width: 1480px;
+  min-height: 636px;
+  margin: 0 auto;
+  background-color: var(--color-white-100);
+}
+.main-introduction,
+.main-picture {
+  padding: 4rem;
+}
+.main-introduction {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.main-introduction__container {
+  /* background-color: rgb(42, 165, 128); */
+}
+.main-introduction__title {
+  width: 100%;
+  min-height: 100px;
+  font-size: 6rem;
+  line-height: 1.2;
+  font-weight: 700;
+  margin-bottom: 3rem;
+  /* background-color: rgb(255, 155, 155); */
+}
+.yellow-element {
+  position: relative;
+  z-index: 10;
+}
+.yellow-element__container {
+  position: absolute;
+  top: 10px;
+  left: -10px;
+  z-index: -1;
+}
+.fill-warning {
+  fill: #f7c32e !important;
+}
+.main-introduction__desc {
+  width: 100%;
+  margin-bottom: 2rem;
+  /* background-color: rgb(157, 155, 255); */
+}
+.introduction__desc {
+  color: var(--text-secondary);
+  line-height: 1.4;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+.introduction__list {
+  flex-wrap: wrap;
+  max-width: 500px;
+  white-space: nowrap;
+}
+.introduction__list__item {
+  margin-bottom: 1rem;
+  margin-right: 0.5rem;
+}
+.introduction__list__item::before {
+  font-family: "Material Symbols Rounded";
+  content: "\f136";
+  font-weight: bold;
+  vertical-align: -2px;
+  margin-right: 0.5rem;
+  color: var(--text-primary);
+}
+.main-introduction__btn {
+  width: max-content;
+  height: 50px;
+}
+.introduction__btn {
+  font-size: 1.7rem;
+  padding: 0 3rem !important;
+}
+.introduction__btn:first-child {
+  margin-right: 2rem;
+}
+.introduction__btn:last-child > .material-symbols-rounded {
+  position: relative;
+  color: var(--color-white-100);
+  margin-right: 0.7rem;
+  padding: 1.5rem;
+  background-color: rgba(6, 107, 201, 0.3);
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  z-index: 10;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+.introduction__btn:last-child > .material-symbols-rounded::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  padding: 2rem;
+  background-color: var(--color-primary);
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -5;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+}
+.introduction__btn:last-child:hover > .material-symbols-rounded {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  margin-right: 1rem;
+}
+.element {
+  -webkit-box-shadow: 0px 0px 40px rgb(29 58 83 / 15%);
+  box-shadow: 0px 0px 40px rgb(29 58 83 / 15%);
+}
+.element-1,
+.element-2,
+.element-3,
+.element-4,
+.element-5,
+.element-6,
+.element-7 {
+  z-index: 10;
+}
+.element-1 {
+  top: 20rem;
+  right: 45%;
+}
+.element-2 {
+  top: 5rem;
+  right: 10%;
+}
+.element-3 {
+  position: absolute;
+  top: 0;
+  left: 10%;
+}
+.element-4 {
+  position: absolute;
+  top: 10rem;
+  left: 30%;
+}
+.element-5 {
+  position: absolute;
+  bottom: 10rem;
+  left: 40%;
+}
+.element-6 {
+  bottom: 20rem;
+  right: 6%;
+}
+.element-7 {
+  position: absolute;
+  top: 15rem;
+  right: 32%;
+}
+.main-picture {
+  position: relative;
+  overflow: hidden;
+  background-color: rgb(255, 255, 255);
+}
+.blue-element,
+.human-element {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+}
+.human-element {
+  width: 400px;
+  /* background-color: #f7c32e; */
+}
+.mask-img {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 3;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+}
