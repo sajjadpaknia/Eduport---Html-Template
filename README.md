@@ -4,7 +4,7 @@
 ![GitHub stars](https://img.shields.io/github/stars/sajjadpaknia/Eduport---Html-Template.svg?style=flat&color=brightgreen)
 ![GitHub repo size](https://img.shields.io/github/repo-size/sajjadpaknia/Eduport---Html-Template)<br>
 
-Eduport is a simple project that I developed in a few days. The purpose of doing it was to challenge myself. Click [here](https://sajjadpaknia.github.io/Edumag---Html-Template/) to see the demo.
+Eduport is a simple project that I developed in a few days. The purpose of doing it was to challenge myself. Click [here](https://sajjadpaknia.github.io/Eduport---Html-Template/) to see the demo.
 
 ### Technologies
 
